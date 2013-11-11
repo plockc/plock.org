@@ -25,7 +25,6 @@
 		</a>
         </div>
 	<span class="logo">cp</span>
-	<span class="blogTitle"><a href="{{ base_url }}">{{ site_title }}</a></span>
         <ul class="navBar">
                 <li><a href="/">Home</a>
                 </li><li><a href="http://www.linkedin.com/pub/chris-plock/1/7b0/6a4">About</a>
@@ -34,8 +33,9 @@
                 </li>
         </ul>
     </div>
-            <div class="timeStamp">{{meta.date_formatted}}</div>
-    <div class="pageTitle">{{meta.title}}</a></div>
+    <h1><a href="{{ base_url }}">{{ site_title }}</a></h1>
+    <div class="timeStamp">{{meta.date_formatted}}</div>
+    <div class="articleTitle"><a href="{{current_page.url}}">{{meta.title}}</a></div>
     <div class="toolsOuter">
         <div class="tools">
             <div class="tool">

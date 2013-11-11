@@ -80,9 +80,9 @@ a:active {
     padding: 10px;
     border-bottom: solid 2px;
     border-top: solid 2px;
-    border-color: #a0a0d8
-    margin-top: 15px;
-    margin-bottom: 15px;
+    border-color: #a0a0d8;
+    margin-top: 0px;
+    margin-bottom: 5px;
     color: #000060
     clear: both;
 }
@@ -105,13 +105,15 @@ a:active {
     font-weight: bold;
     color: #484848;
     padding: 3px 0px 3px 0px;
-    margin-bottom: 7px;
     border-top: solid 3px #bbbbcc;
     border-bottom: solid 3px #bbbbcc;
     overflow: hidden;
     text-indent: 0px;
     color: #000060
     /* to prevent border from showing under float */
+}
+h2 {
+    margin-bottom: 7px;
 }
 .timeStamp {
     font-size: 75%;
