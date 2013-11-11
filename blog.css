@@ -97,8 +97,10 @@ a:active {
     border: solid 1px #dddddd;
     padding: 4px 8px 8px 8px;
 }
+.tools a { font-weight: normal; }
+.tools a:hover { background-color:#dddddd; color: black }
 .toolTitle {font-size: 75%; border-bottom: dotted 1px; text-transform:uppercase; margin-top: 7px;}
-.toolLink {font-size: 75%; margin-top:4px}
+.toolLink {font-size: 75%; margin-top:6px}
 
 .articleTitle, h2 {
     font-size:150%;
