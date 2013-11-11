@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+	
+        <link rel="stylesheet" href="http://blog.plock.org/highlight/styles/docco2.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
+	
+</head>
+<body>
+    <div class="header">
+	<div class="siteLinks">
+		<a href="http://www.linkedin.com/pub/chris-plock/1/7b0/6a4">
+			<img src="http://blog.plock.org/11-linkedin.svg"></img>
+		</a>
+		<a href="https://github.com/plockc">
+			<img src="http://blog.plock.org/github.svg"></img>
+		</a>
+        </div>
+	<span class="logo">cp</span>
+	<span class="blogTitle"><a href="{{ base_url }}">{{ site_title }}</a></span>
+        <ul class="navBar">
+                <li><a href="/">Home</a>
+                </li><li><a href="http://www.linkedin.com/pub/chris-plock/1/7b0/6a4">About</a>
+                </li><li> <a href="/pico">Blog</a>
+                </li><li> <a href="/dokuwiki">Wiki</a>
+                </li>
+        </ul>
+    </div>
+            <div class="timeStamp">{{meta.date_formatted}}</div>
+    <div class="pageTitle">{{meta.title}}</a></div>
+    <div class="toolsOuter">
+        <div class="tools">
+            <div class="tool">
+                <div class="toolTitle">Recent Wiki</div>
+		{% for page in pages %}
+		<div class="toolLink"><a href="{{ page.url }}">{{ page.title }}</a></div>
+		{% endfor %}
+            </div><!-- tool -->
+        </div>
+        <!-- tools -->
+    </div>
+    <div class="articles">
+        <div class="article">
+	<section id="content">
+		<div class="inner">
+			{{ content }}
+		</div>
+	</section>
+	
+</body>
+</html>

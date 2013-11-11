@@ -1,0 +1,168 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic);
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:#fdfdfd;
+    color: #444444;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 16px "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+a {
+    color: black;
+}
+a {
+    font-weight: bold;
+    color:#444488
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #f0f0f0;
+}
+a:active {
+    text-decoration: none;
+    color: #666666;
+    background-color:#f0f0f0;
+}
+.header {
+    margin: 9px;
+}
+.logo {
+    font-size: 150%;
+    padding:0px 5px 2px 5px;
+    border-style: solid;
+    border-width:2px;
+    border-radius: 5px;
+    color: #0000cc;
+}
+.blogTitle {
+   margin-left: 40px;
+}
+.navBar {
+    margin-left: 60px; 
+    display: inline; 
+    white-space: nowrap;
+}
+.navBar * {
+    display: inline;
+    margin:0px;
+}
+.navBar li {
+    padding-left: 8px;
+    padding-right: 6px;
+}
+.navBar li+li {
+    border-left: 1px solid #000000;
+}
+.siteLinks {
+    display: inline;
+    margin-right: 60px; 
+    float: right; 
+   padding-top: 3px;
+}
+.siteLinks img {
+    width: 25px;
+    opacity: .75
+}
+.pageTitle, h1 {
+    background-color: #dddddd;
+    font-size: 300%;
+    font-weight: lighter;
+    padding: 10px;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    border-color: #a0a0d8
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #000060
+    clear: both;
+}
+/* created the outer to provide whitespace that padding and margin in the float did not provide */
+.toolsOuter {
+    width:170px;
+    float: right;
+    margin:0px 0px 5px 5px;
+}
+.tools {
+    background-color: #f0f0f0;
+    border: solid 1px #dddddd;
+    padding: 4px 8px 8px 8px;
+}
+.toolTitle {font-size: 75%; border-bottom: dotted 1px; text-transform:uppercase; margin-top: 7px;}
+.toolLink {font-size: 75%; margin-top:4px}
+
+.articleTitle, h2 {
+    font-size:150%;
+    font-weight: bold;
+    color: #484848;
+    padding: 3px 0px 3px 0px;
+    margin-bottom: 7px;
+    border-top: solid 3px #bbbbcc;
+    border-bottom: solid 3px #bbbbcc;
+    overflow: hidden;
+    text-indent: 0px;
+    color: #000060
+    /* to prevent border from showing under float */
+}
+.timeStamp {
+    font-size: 75%;
+    font-variant:small-caps;
+}
+.article {
+    margin-top: 15px;
+}
+.articleContent {
+    padding-left: 5px;
+}
+.article img {
+    float: right;
+    margin: 5px 5px 5px 0px;
+    width: 30%;
+    box-shadow: 2px 2px 4px #888888;
+}
+h3 {
+    font-size:125%;
+    font-weight: bold;
+    color: #484848;
+    padding: 3px 0px 1px 0px;
+    margin: 8px 0px 5px 5px;
+    border-bottom: solid 3px #bbbbcc;
+    overflow: hidden;
+    color: #000060
+}
+h4 {
+    font-size:100%;
+    color: #484848;
+    padding: 3px 0px 0px 0px;
+    margin: 12px 0px 4px 5px;
+    border-bottom: solid 1px #bbbbcc;
+    overflow: hidden;
+    text-indent: 0px;
+    color: #000060
+}
+h5 {
+    font-size:100%;
+    color: #484848;
+    margin: 14px 0px 0px 5px;
+    overflow: hidden;
+    text-indent: 0px;
+    color: #000060
+}
+
+pre code {
+    font-size: 75%;
+    overflow: auto;
+    background: #fff;
+    box-shadow: 0px 0px 2px 1px #888888;
+    padding: 3px 3px 3px 3px;
+}
+
