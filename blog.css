@@ -85,6 +85,9 @@ a:active {
     margin-bottom: 5px;
     color: #000060
     clear: both;
+    background-image: url('http://www.gravatar.com/avatar/5ffc770f625306db6937c92ca1b145d9');
+    background-position: top right;
+    background-repeat: no-repeat;
 }
 /* created the outer to provide whitespace that padding and margin in the float did not provide */
 .toolsOuter {
